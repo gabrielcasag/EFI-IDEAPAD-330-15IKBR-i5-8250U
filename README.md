@@ -48,7 +48,17 @@ This is not a guide, please refer to [Dortania](https://dortania.github.io/getti
 ## :x: Not working:
 
 Only AirDrop and Handoff are not working since the Intel card are not fully compatible with macOS. To make these things works you need to replace with a native card one, like the Fenvi cards.
- 
+
+
+## :closed_lock_with_key: SMBIOS 
+
+You will need to generate your own SMBIOS and configure, since is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#platforminfo) you can use the following SMBIOS: MacbookPro 14,1.
+
+Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own unique SMBIOS and then copy each parametter following path (recomended to follow the guide above):
+  - Config.plist -> PlatformInfo -> Generic
+
+<img src="assets/smbios.png">
+
 ## Credits:
 
 [**Apple**](http://apple.com/)
