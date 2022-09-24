@@ -24,7 +24,7 @@ This is not a guide, please refer to [Dortania](https://dortania.github.io/getti
 | **Display**  | 15,6" 1366x768p LCD non-touch display |
 | **Wi-Fi/BT** | Intel Dual Band Wireless-AC 3165      |
 | **Ethernet** | Realtek RTL8111                       |
-| **Audio**    | Realtek ALC230                        |
+| **Audio**    | Realtek ALC230 (layout-id=20)         |
 | **Input**    | PS2 Keyboard & ELAN TrackPad          |
 
 ## :white_check_mark: Working:
