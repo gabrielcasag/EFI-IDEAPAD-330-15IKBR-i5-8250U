@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-GPI0.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-GPRW.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -24,31 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
+				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -56,19 +40,35 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-BAT0.aml</string>
+				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-BAT0.aml</string>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-LID.aml</string>
+				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-LID.aml</string>
+				<string>SSDT-PNLF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-XOSI.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -296,6 +296,17 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>FAAAAA==</data>
+				<key>model</key>
+				<string>Sunrise Point-LP HD Audio</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -304,20 +315,26 @@
 				<data>FlkAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
+				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQUJAAAIAACHAQAA</data>
-				<key>framebuffer-con2-enable</key>
+				<key>force-online</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-alldata</key>
-				<string>&lt;02040a00 00080000 87010000&gt;</string>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAoA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-type</key>
+				<data>AAQAAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key># framebuffer-con0-alldata</key>
+				<data>AQUJAAAIAACHAQAA</data>
+				<key># framebuffer-con1-alldata</key>
+				<string>&lt;02040a00 00080000 87010000&gt;</string>
 				<key>enable-backlight-smoother	</key>
 				<data>AQAAAA==</data>
 				<key>backlight-smoother-steps	</key>
@@ -454,6 +471,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooTSCSync.kext</string>
+				<key>Comment</key>
+				<string>VoodooTSCSync.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooTSCSync</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -771,13 +806,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooI2CSynaptics.kext</string>
+				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string>VoodooI2CSynaptics.kext</string>
+				<string>VoodooI2CHID.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CSynaptics</string>
+				<string>Contents/MacOS/VoodooI2CHID</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -978,7 +1013,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>alcid=20 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxnohdmi -wegnoegpu</string>
+				<string>debug=0x100 keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>hwcAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1027,7 +1062,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>2M+cGwE+</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
