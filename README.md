@@ -5,7 +5,7 @@ OpenCore, drivers, and kexts are always up to date!
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.4-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS](https://img.shields.io/badge/macOS-12.6-purple.svg)](https://www.apple.com/macos/monterey)
 
 :warning: **DISCLAIMER:**
@@ -58,6 +58,14 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 - Config.plist -> PlatformInfo -> Generic
 
 <img src="assets/smbios.png">
+
+
+## BIOS setup:
+
+- Security / Intel Platform Trust Technology - Disabled
+- Security / Intel SGX - Disabled
+- Security / Secure Boot - Disabled
+- Boot / Boot Mode - UEFI
 
 ## Credits:
 
