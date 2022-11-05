@@ -1,16 +1,21 @@
 # EFI-IDEAPAD-330-15IKB-OPENCORE
 
-:information_source: **The current version is fully macOS Monterey compatible.**
+:information_source: **The current version is fully macOS compatible based on my laptop hardware.**
 OpenCore, drivers, and kexts are always up to date!
 
+:information_source: The EFI's folder has 2 types: the Debug version that can be used for find errors on the boot/instalation and better logs. And a Relase version that is recommended for definitive use of the hackintosh.
+
+:information_source: This efi has a hybrid configuration, which means that some kexts are dynamically loaded depending on the macOs (kernel) version. So you can choose the macOS version that better fit to your use.
+
+:information_source: The EFI's have been tested on Catalina, BigSur and Moneterey relases.
+
 <br/>
-
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS](https://img.shields.io/badge/macOS-12.6-purple.svg)](https://www.apple.com/macos/monterey)
-
 :warning: **DISCLAIMER:**
 This is not a guide, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
+<br/>
+
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 <img src="assets/macos-monterey.png">
 
 ## :computer: Hardware:
@@ -58,7 +63,6 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 - Config.plist -> PlatformInfo -> Generic
 
 <img src="assets/smbios.png">
-
 
 ## BIOS setup:
 
