@@ -11,14 +11,13 @@ OpenCore, drivers, and kexts are always up to date!
 
 <br/>
 
-
 :warning: **IMPORTANT**
 
 This is not a guide, please refer to [Dortania](https://dortania.github.io/getting-started) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
 <br/>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 
 <img src="assets/macos-monterey.png">
 
