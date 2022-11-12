@@ -7,7 +7,9 @@ OpenCore, drivers, and kexts are always up to date!
 
 :information_source: This efi has a hybrid configuration, which means that some kexts are dynamically loaded depending on the macOs (kernel) version. So you can choose the macOS version that better fit to your use.
 
-:information_source: The EFI's have been tested on Catalina, BigSur and Moneterey relases.
+:information_source: The EFI's have been tested on Catalina, BigSur, Moneterey and Ventura relases.
+
+:information_source: The macOS Ventura is only supported on the OpenCore 0.8.3 or later releases
 
 <br/>
 
