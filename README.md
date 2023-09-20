@@ -13,18 +13,6 @@ OpenCore, drivers, and kexts are always up to date!
 
 ## :computer: Hardware
 
-## macOS Support Table
-
-The table below lists the versions from the EFI of this repo recommended for each version of macOS, strongly recommend to use the [latest](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U/releases/latest) one!
-
-| [EFI Releases](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U/releases) | [macOS Releases](https://en.wikipedia.org/wiki/MacOS_version_history#Releases) | Demos |  
-|-------------|---------------|------|
-| >= 0.9.5    | Sonoma        |  [Sonoma Demo](/assets/macos-sonoma.png)  |
-| >= 0.8.3    | Ventura       |  [Ventura Demo](/assets/macos-ventura.png)  |
-| >= 0.8.0    | Monterey      |  [Monterey Demo](/assets/macos-monterey.png)  |
-| >= 0.7.8    | Big Sur       |  🏞️  |
-| >= 0.7.8    | Catalina      |  🏞️  |
-
 | **Category** | **Component**                         |
 | ------------ | ------------------------------------- |
 | **CPU**      | 1.8GHz Intel Core i5-8250u            |
@@ -36,6 +24,18 @@ The table below lists the versions from the EFI of this repo recommended for eac
 | **Ethernet** | Realtek RTL8111                      |
 | **Audio**    | Realtek ALC230 (layout-id=20)         |
 | **Input**    | PS2 Keyboard & ELAN TrackPad          |
+
+## macOS Support Table
+
+The table below lists the versions from the EFI of this repo recommended for each version of macOS, strongly recommend to use the [latest](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U/releases/latest) one!
+
+| [EFI Releases](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U/releases) | [macOS Releases](https://en.wikipedia.org/wiki/MacOS_version_history#Releases) | Demos |  
+|-------------|---------------|------|
+| >= 0.9.5    | Sonoma        |  [Sonoma Demo](/assets/macos-sonoma.png)  |
+| >= 0.8.3    | Ventura       |  [Ventura Demo](/assets/macos-ventura.png)  |
+| >= 0.8.0    | Monterey      |  [Monterey Demo](/assets/macos-monterey.png)  |
+| >= 0.7.8    | Big Sur       |  🏞️  |
+| >= 0.7.8    | Catalina      |  🏞️  |
 
 ## :white_check_mark: Working
 
