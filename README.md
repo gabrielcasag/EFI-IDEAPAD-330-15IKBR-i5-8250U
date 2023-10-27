@@ -34,8 +34,8 @@ The table below lists the versions from the EFI of this repo recommended for eac
 | >= 0.9.5    | Sonoma        |  [Sonoma Demo](/assets/macos-sonoma.png)  |
 | >= 0.8.3    | Ventura       |  [Ventura Demo](/assets/macos-ventura.png)  |
 | >= 0.8.0    | Monterey      |  [Monterey Demo](/assets/macos-monterey.png)  |
-| >= 0.7.8    | Big Sur       |  🏞️  |
-| >= 0.7.8    | Catalina      |  🏞️  |
+| >= 0.7.8    | BigSur       |  [BigSur Demo](/assets/macos-bigsur.png)  |
+| >= 0.7.8    | Catalina      |  [Catalina Demo](/assets/macos-catalina.png)  |
 
 ## :white_check_mark: Working
 
