@@ -477,7 +477,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwmCatalina.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwmCatalina.kext - v2.1.0 stable</string>
+				<string>AirportItlwmCatalina.kext - v2.2.0 stable</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -495,7 +495,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwmBigSur.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwmBigSur.kext - v2.1.0 stable</string>
+				<string>AirportItlwmBigSur.kext - v2.2.0 stable</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -513,7 +513,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwmMonterey.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwmMonterey.kext - v2.1.0 stable</string>
+				<string>AirportItlwmMonterey.kext - v2.2.0 stable</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -531,7 +531,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwmVentura.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwmVentura.kext - v2.2.0 alpha</string>
+				<string>AirportItlwmVentura.kext - v2.2.0 stable</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -549,7 +549,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwmSonoma.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwmSonoma.kext - preview 5 - issue 883</string>
+				<string>AirportItlwmSonoma.kext - 2.3.0 - debug</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1300,7 +1300,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v alcid=20 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxnohdmi -wegnoegpu</string>
+				<string>-v alcid=20 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxnohdmi -wegnoegpu revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
