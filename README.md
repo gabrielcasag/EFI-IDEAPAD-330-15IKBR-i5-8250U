@@ -31,6 +31,7 @@ The table below lists the versions from the EFI of this repo recommended for eac
 
 | [EFI Releases](https://github.com/gabrielcasag/EFI-IDEAPAD-330-15IKBR-i5-8250U/releases) | [macOS Releases](https://en.wikipedia.org/wiki/MacOS_version_history#Releases) | Demos |  
 |-------------|---------------|------|
+| >= 0.9.9    | Sonoma 14.4     |  [Sonoma Demo](/assets/macos-sonoma.png)  |
 | >= 0.9.5    | Sonoma        |  [Sonoma Demo](/assets/macos-sonoma.png)  |
 | >= 0.8.3    | Ventura       |  [Ventura Demo](/assets/macos-ventura.png)  |
 | >= 0.8.0    | Monterey      |  [Monterey Demo](/assets/macos-monterey.png)  |
