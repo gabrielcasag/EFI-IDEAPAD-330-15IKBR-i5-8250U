@@ -19,7 +19,7 @@ OpenCore, drivers, and kexts are always up to date!
 | **GPU**      | Intel UHD 620                         |
 | **RAM**      | 20GB (4GB non-removable) 2133MHz DDR4 |
 | **SSD**      | 512GB SATA SSD (Netac branded)        |
-| **Display**  | 15,6" 1920x1080p non-touch display (Upgraded) |
+| **Display**  | 15,6" 1920x1080p non-touch display (Upgraded, just buyed a 30 pin display for ideapad 330 on Ali) |
 | **Wi-Fi/BT** | Intel Dual Band Wireless-AC 3165      |
 | **Ethernet** | Realtek RTL8111                      |
 | **Audio**    | Realtek ALC230 (layout-id=20)         |
